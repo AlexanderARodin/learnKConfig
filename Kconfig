@@ -1,3 +1,19 @@
 
-bool "the First Bool"
-tristate "the Second TriState"
+config SIMPLE_BOOL
+	bool "a root bool"
+
+config SIMPLE_TRI
+	tristate "a root tri"
+
+config ROOT_STR
+	string "a root str"
+
+config ROOT_HEX
+	hex "a root hex"
+
+config ROOT_INT
+	int "a root int"
+
+
+
+
