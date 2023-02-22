@@ -3,15 +3,16 @@ config SIMPLE_BOOL
 	bool "a root bool"
 
 config SIMPLE_TRI
-	tristate "a root tri"
+	tristate
+	prompt "a root tri"
 
-config ROOT_STR
+config SIMPLE_STR
 	string "a root str"
 
-config ROOT_HEX
+config SIMPLE_HEX
 	hex "a root hex"
 
-config ROOT_INT
+config SIMPLE_INT
 	int "a root int"
 
 
