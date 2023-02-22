@@ -2,6 +2,7 @@ mainmenu "AlexanderARodin learning template of KConfig skeleton"
 
 config SIMPLE_BOOL
 	bool "a root bool"
+	select MODULES_ON
 
 config SIMPLE_TRI
 	tristate "a root tri"
@@ -68,7 +69,7 @@ config MAIN_OPT
 		default y
 
 
-config MODULES
+menuconfig MODULES_ON
 	bool "modulator ON!!"
 	#modules
 	help
