@@ -1,4 +1,4 @@
 # learnKConfig
-dive in KConfig
+dive in KConfig: https://www.kernel.org/doc/Documentation/kbuild/kconfig-language.txt
 
-https://www.kernel.org/doc/Documentation/kbuild/kconfig-language.txt
+read-test-understand
