@@ -1,0 +1,9 @@
+
+
+menu "PLUG INs"
+
+config OTHER_KCFG_FILE
+	bool "plug-in module"
+
+
+endmenu
