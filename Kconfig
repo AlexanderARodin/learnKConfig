@@ -1,0 +1,3 @@
+
+bool "the First Bool"
+tristate "the Second TriState"
