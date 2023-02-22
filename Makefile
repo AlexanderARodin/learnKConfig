@@ -7,3 +7,8 @@ edit:
 
 see:
 	@vi -R ./.config
+
+save-to-git:
+	@git add .
+	@git commit -m 'save all'
+	@git push
