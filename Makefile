@@ -1,0 +1,4 @@
+
+menuconfig:
+	@kconfig-mconfig ./Kconfig
+	
