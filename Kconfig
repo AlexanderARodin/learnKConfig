@@ -1,5 +1,8 @@
 mainmenu "AlexanderARodin learning template of KConfig skeleton"
 
+MIN_VAL:=2
+MAX_VAL:=5
+
 config SIMPLE_BOOL
 	bool "a root bool"
 	select MODULES_ON
@@ -18,6 +21,7 @@ config SIMPLE_HEX
 
 config SIMPLE_INT
 	int "a root int"
+	range $(MIN_VAL) $(MAX_VAL)
 
 menuconfig MENU_A
 	bool "menu A"
@@ -71,7 +75,7 @@ config MAIN_OPT
 
 menuconfig MODULES_ON
 	bool "modulator ON!!"
-	#modules
+	modules
 	help
 		tristate activator
 		..still can't make it work
